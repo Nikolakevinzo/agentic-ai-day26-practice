@@ -9,3 +9,8 @@ print(f"Machine: {machine_name}")
 print(f"Base Price: ₹{base_price:,.2f}")
 print(f"GST ({gst_rate}%): {gst_amount:,.2f}")
 print(f"Total Price: ₹{total_price:,.2f}")
+
+advance_rate = 20
+advance_amount = total_price * advance_rate / 100
+
+print(f"Advance payment ({advance_rate}%): ₹{advance_amount:,.2f}")
